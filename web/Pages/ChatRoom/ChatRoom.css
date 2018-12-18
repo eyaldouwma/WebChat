@@ -1,0 +1,90 @@
+body {
+
+    background-color: #52fa80;
+    background-size: cover;
+}
+
+.textBox {
+
+    position: fixed;
+    bottom: 10px;
+    margin: 10px;
+}
+
+.TableUsersItself, .usersTr, .tdata {
+
+    background: linear-gradient(#b3b3b3,whitesmoke);
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.usersTable {
+
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+
+}
+
+.wholeTable {
+
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: gray;
+    text-align: left;
+    background-color: lightyellow;
+    overflow: auto;
+    left: 15px;
+}
+
+td {
+
+    border: 2px solid rgba(94, 25, 12, 0.58);
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    font-size:18px;
+}
+
+td[index$='0'] {
+
+    background: rgba(226, 230, 206,0.7);
+}
+
+td[index$='1'] {
+
+    background: rgba(146, 149, 137,0.7);
+    text-align: right;
+}
+
+.messagebox {
+
+    width: 700px;
+    height: 30px;
+    font-size:18px;
+}
+
+.inputButton {
+
+    background: linear-gradient(#33b237, #7afa18);
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    height: 36px;
+    width: 100px;
+    bottom:1px;
+    font-size:18px;
+    color: ghostwhite;
+
+}
+
+.inputButton:hover {
+
+    cursor: pointer;
+    background: rgba(122, 250, 24, 0.8);
+}

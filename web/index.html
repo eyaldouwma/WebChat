@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First WebSite</title>
+    <link rel="stylesheet" type="text/css" href="Pages/LoginPage/LoginPage.css">
+    <script type="text/javascript" src=Pages/LoginPage/LoginPage.js></script>
+    <script type="text/javascript" src=Utils/jquery-3.3.1.min.js></script>
+</head>
+<body>
+<div class="mainBlock">
+    <h2 class="errormessage">
+    </h2>
+    <div class="head">
+        <h1>Chat Website!</h1>
+    </div>
+    <table class="TableBody">
+        <tr>
+        <th>Users Online:</th>
+        </tr>
+        <tbody id="BodyOFUserTable">
+        </tbody>
+    </table>
+    <div>
+        <form name="LoginForm">
+            <div id="LoginId">
+                <span>Username: </span>
+                <input name="UserName" id="userTextBox" type="text" class="UserName"/>
+            </div>
+            <br>
+            <div class="LoginButton">
+                <button onclick="clickConnect()" type="button" class="LoginButtonText">Connect!!</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

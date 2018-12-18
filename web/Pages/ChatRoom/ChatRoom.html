@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Room</title>
+    <link rel="stylesheet" type="text/css" href="ChatRoom.css">
+    <script type="text/javascript" src=../../Utils/jquery-3.3.1.min.js></script>
+    <script type="text/javascript" src=ChatRoom.js></script>
+</head>
+<body>
+<div class="wholeTable">
+    <table width="100%">
+        <tbody id="messages">
+        </tbody>
+    </table>
+</div>
+<div class="usersTable">
+    <table class="tableUsersItself">
+        <tr>
+            <th class="usersTr">Users In Chat Room:</th>
+        </tr>
+        <tbody id="usersTable">
+        </tbody>
+    </table>
+</div>
+<div class="textBox">
+    <input type="text" name="messagebox" class="messagebox"/>
+    <button type="button" onclick="submitMessage()" class="inputButton">Submit</button>
+</div>
+
+</body>
+</html>

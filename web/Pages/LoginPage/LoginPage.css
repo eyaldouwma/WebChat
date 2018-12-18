@@ -1,0 +1,61 @@
+.head {
+
+    color: darkred;
+}
+
+.mainBlock {
+
+    text-align: center;
+}
+
+p {
+
+    text-align: right;
+}
+
+#error {
+
+    color: red;
+    font-size: 70px;
+}
+
+.TableBody, th, tr {
+
+
+    width: 200px;
+    background: linear-gradient(blue,navy);
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: 18px;
+    color: ghostwhite;
+}
+
+#LoginId {
+
+    font-size: 20px;
+}
+
+
+.LoginButtonText {
+
+    font-size:20px;
+}
+
+.LoginButton:hover {
+
+    background-color: aqua;
+}
+
+.UserNameInput {
+
+    border: 1px solid crimson;
+}
+
+body {
+
+
+    background-image: url("light-background-website-background-images-for-websites-44-wujinshike.jpg");
+    background-size: cover
+}
